@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#TODO: support names with whitespaces
+
 # save today's date with and without spaces
 date_full=$(date +%d\ %b\ %Y)
 date_compact=$(date +%d%b%Y)
